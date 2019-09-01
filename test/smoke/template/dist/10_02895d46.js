@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{30:function(n,w,i){"use strict";i.r(w),w.default="hi"}}]);
