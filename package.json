@@ -1,0 +1,49 @@
+{
+  "name": "@banli17/webpack",
+  "version": "2.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint lib/ --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "glob": "^7.1.4",
+    "glob-all": "^3.1.0",
+    "happypack": "^5.0.1",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "px2rem-loader": "^0.1.9",
+    "speed-measure-webpack-plugin": "^1.3.1",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.39.3",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.7",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^3.0.0"
+  }
+}
